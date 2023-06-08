@@ -11,9 +11,9 @@ const BlogCard: FC<Props> = ({ title, desc, slug }): JSX.Element => {
   return (
     <Link legacyBehavior href={"/blogs/" + slug}>
       <a className="block">
-        <div className="bg-green-100 p-2 rounded cursor-pointer">
+        <div className="bg-stone-200 p-5 rounded cursor-pointer">
           <h1 className="text-gray-900 text-3xl font-semibold">{title}</h1>
-          <p className="text-gray-500">{desc}</p>
+          <p className="text-gray-700">{desc}</p>
         </div>
       </a>
     </Link>

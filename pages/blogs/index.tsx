@@ -1,7 +1,6 @@
 import { InferGetStaticPropsType, NextPage } from "next";
 import BlogCard from "@/components/BlogCard";
 import { readPostsInfo } from "@/lib/helper";
-import { type } from "os";
 import { PostApiResponse } from "@/utils/types";
 
 export const getStaticProps = async () => {
